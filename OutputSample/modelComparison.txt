@@ -1,0 +1,87 @@
+CountVectorizer (bag of words with counts) followed by different models accuracy with 5 fold cross validation.
+
+[ 0.72839506  0.77777778  0.74074074  0.81481481  0.72839506]
+Classifier:Nearest Neighbors Accuracy: 0.76 (+/- 0.07) Time(seconds): 42.172183
+[ 0.85185185  0.9382716   0.85185185  0.9382716   0.87654321]
+Classifier:Linear SVM Accuracy: 0.89 (+/- 0.08) Time(seconds): 37.601688
+[ 0.81481481  0.88888889  0.82716049  0.91358025  0.87654321]
+Classifier:RBF SVM Accuracy: 0.86 (+/- 0.07) Time(seconds): 37.659951
+[ 0.86419753  0.92592593  0.87654321  0.91358025  0.85185185]
+Classifier:Gaussian Process Accuracy: 0.89 (+/- 0.06) Time(seconds): 41.226300
+[ 0.62962963  0.60493827  0.61728395  0.69135802  0.66666667]
+Classifier:Decision Tree Accuracy: 0.64 (+/- 0.06) Time(seconds): 37.489114
+[ 0.60493827  0.60493827  0.5308642   0.62962963  0.65432099]
+Classifier:Random Forest Accuracy: 0.60 (+/- 0.08) Time(seconds): 38.354992
+[ 0.85185185  0.92592593  0.81481481  0.9382716   0.86419753]
+Classifier:Neural Net Accuracy: 0.88 (+/- 0.09) Time(seconds): 40.577021
+[ 0.81481481  0.91358025  0.79012346  0.91358025  0.87654321]
+Classifier:AdaBoost Accuracy: 0.86 (+/- 0.10) Time(seconds): 41.189983
+[ 0.66666667  0.7654321   0.62962963  0.61728395  0.72839506]
+Classifier:Naive Bayes Accuracy: 0.68 (+/- 0.11) Time(seconds): 37.713692
+[ 0.66666667  0.7037037   0.64197531  0.61728395  0.7037037 ]
+Classifier:QDA Accuracy: 0.67 (+/- 0.07) Time(seconds): 37.534397
+
+TfIDF Features (bag of words with TFIDF) followed by different models accuracy with 5 fold cross validation.
+
+[ 0.74074074  0.7654321   0.72839506  0.81481481  0.72839506]
+Classifier:Nearest Neighbors Accuracy: 0.76 (+/- 0.07) Time(seconds): 38.086530
+[ 0.82716049  0.90123457  0.82716049  0.85185185  0.88888889]
+Classifier:Linear SVM Accuracy: 0.86 (+/- 0.06) Time(seconds): 37.813688
+[ 0.77777778  0.86419753  0.82716049  0.88888889  0.83950617]
+Classifier:RBF SVM Accuracy: 0.84 (+/- 0.07) Time(seconds): 37.639678
+[ 0.83950617  0.92592593  0.82716049  0.87654321  0.86419753]
+Classifier:Gaussian Process Accuracy: 0.87 (+/- 0.07) Time(seconds): 39.745587
+[ 0.64197531  0.60493827  0.62962963  0.69135802  0.64197531]
+Classifier:Decision Tree Accuracy: 0.64 (+/- 0.06) Time(seconds): 37.522465
+[ 0.59259259  0.60493827  0.49382716  0.59259259  0.64197531]
+Classifier:Random Forest Accuracy: 0.59 (+/- 0.10) Time(seconds): 38.438682
+[ 0.83950617  0.87654321  0.81481481  0.86419753  0.88888889]
+Classifier:Neural Net Accuracy: 0.86 (+/- 0.05) Time(seconds): 40.229122
+[ 0.80246914  0.88888889  0.87654321  0.95061728  0.87654321]
+Classifier:AdaBoost Accuracy: 0.88 (+/- 0.09) Time(seconds): 41.793846
+[ 0.66666667  0.7654321   0.64197531  0.61728395  0.72839506]
+Classifier:Naive Bayes Accuracy: 0.68 (+/- 0.11) Time(seconds): 37.940228
+[ 0.66666667  0.69135802  0.64197531  0.61728395  0.72839506]
+Classifier:QDA Accuracy: 0.67 (+/- 0.08) Time(seconds): 39.590244
+
+Spacy Average Word Vectors followed by different models accuracy with 5 fold cross validation.
+
+[ 0.65432099  0.79012346  0.64197531  0.72839506  0.7037037 ]
+Classifier:Nearest Neighbors Accuracy: 0.70 (+/- 0.11) Time(seconds): 472.199390
+[ 0.77777778  0.79012346  0.72839506  0.75308642  0.61728395]
+Classifier:Linear SVM Accuracy: 0.73 (+/- 0.12) Time(seconds): 472.523852
+[ 0.74074074  0.82716049  0.85185185  0.81481481  0.7654321 ]
+Classifier:RBF SVM Accuracy: 0.80 (+/- 0.08) Time(seconds): 464.055086
+[ 0.85185185  0.92592593  0.82716049  0.83950617  0.85185185]
+Classifier:Gaussian Process Accuracy: 0.86 (+/- 0.07) Time(seconds): 470.454633
+[ 0.82716049  0.87654321  0.7654321   0.81481481  0.75308642]
+Classifier:Decision Tree Accuracy: 0.81 (+/- 0.09) Time(seconds): 470.717354
+[ 0.69135802  0.82716049  0.79012346  0.77777778  0.82716049]
+Classifier:Random Forest Accuracy: 0.78 (+/- 0.10) Time(seconds): 470.674669
+[ 0.77777778  0.80246914  0.79012346  0.55555556  0.79012346]
+Classifier:Neural Net Accuracy: 0.74 (+/- 0.19) Time(seconds): 463.061083
+[ 0.82716049  0.90123457  0.85185185  0.77777778  0.77777778]
+Classifier:AdaBoost Accuracy: 0.83 (+/- 0.09) Time(seconds): 465.588643
+[ 0.71604938  0.71604938  0.67901235  0.71604938  0.67901235]
+Classifier:Naive Bayes Accuracy: 0.70 (+/- 0.04) Time(seconds): 460.305538
+[ 0.69344532  0.69135802  0.72839506  0.65432099  0.64197531]
+Classifier:QDA Accuracy: 0.68 (+/- 0.09) Time(seconds): 462.588643
+
+Trying the best models SVM with different parameters and doing a grid search
+{'classifier__C': 100, 'classifier__kernel': 'linear'}
+
+Grid scores on development set:
+
+0.719 (+/-0.110) for {'classifier__C': 1, 'classifier__kernel': 'linear'}
+0.777 (+/-0.099) for {'classifier__C': 10, 'classifier__kernel': 'linear'}
+0.785 (+/-0.078) for {'classifier__C': 100, 'classifier__kernel': 'linear'}
+0.769 (+/-0.094) for {'classifier__C': 1000, 'classifier__kernel': 'linear'}
+0.554 (+/-0.101) for {'classifier__gamma': 0.001, 'classifier__C': 1, 'classifier__kernel': 'rbf'}
+0.554 (+/-0.101) for {'classifier__gamma': 0.0001, 'classifier__C': 1, 'classifier__kernel': 'rbf'}
+0.554 (+/-0.101) for {'classifier__gamma': 0.001, 'classifier__C': 10, 'classifier__kernel': 'rbf'}
+0.554 (+/-0.101) for {'classifier__gamma': 0.0001, 'classifier__C': 10, 'classifier__kernel': 'rbf'}
+0.588 (+/-0.096) for {'classifier__gamma': 0.001, 'classifier__C': 100, 'classifier__kernel': 'rbf'}
+0.554 (+/-0.101) for {'classifier__gamma': 0.0001, 'classifier__C': 100, 'classifier__kernel': 'rbf'}
+0.742 (+/-0.071) for {'classifier__gamma': 0.001, 'classifier__C': 1000, 'classifier__kernel': 'rbf'}
+0.588 (+/-0.096) for {'classifier__gamma': 0.0001, 'classifier__C': 1000, 'classifier__kernel': 'rbf'}
+
