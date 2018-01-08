@@ -74,7 +74,9 @@ We also included a test model file that tests different models on training data.
  
  These are the results of running the above code on a [Small dataset](https://github.com/Srivatsava/manualExtraction/blob/master/Input/output_child.json).
  
- [Stats](https://github.com/Srivatsava/manualExtraction/blob/master/OutputSample/stats.txt) contains all the stats of running the code on this input file before and after cleanup and after applying filtering on this [file](https://github.com/Srivatsava/manualExtraction/blob/master/Input/output_child.json)
+[Stats](https://github.com/Srivatsava/manualExtraction/blob/master/OutputSample/stats.txt) contains all the stats of running the code on this input file before and after cleanup and after applying filtering on this [file](https://github.com/Srivatsava/manualExtraction/blob/master/Input/output_child.json)
+
+[ModelComparisonStats](https://github.com/Srivatsava/manualExtraction/blob/master/OutputSample/modelComparison.txt) contains all the stats of different models tried on the training dataset for labeling positive and negative entity examples [trainingFile](https://github.com/Srivatsava/manualExtraction/blob/master/Model/trainingdata.tsv)
 
 [Cooccuring Google API Entities](https://github.com/Srivatsava/manualExtraction/blob/master/OutputSample/output_coge_samesentence_child.csv): Entities that are discovered using Google API that cooccur together.
 
