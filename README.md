@@ -1,4 +1,4 @@
-# manualExtraction
+# ManualExtraction
 Project to extract from a vehicle manual
 
 # Prerequisites
